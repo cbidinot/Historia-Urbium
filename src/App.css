@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+
+#root {
+  height: 100vh;
+  width: 100vw;
+  --defaultBlue: #2F3A94;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+main {
+  height: 85%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Header Component 
+=================================================================== */
+.header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: sticky;
+  top: 0%;
+  background-color: var(--defaultBlue);
+  height: 10%;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.topLogo {
+  height: 70%;
+  width: 35%;
+}
+/* SideNav Component
+=================================================================== */
+.sideNav {
+  display: inline;
+  visibility: hidden;
+  position: absolute;
+  left: 0vh;
+  top: 10vh;
+  height: 85vh;
+  width: 20vw;
+  background-color: rgba(0, 0, 0, 0.253);
+  transition: left 0.5s, visibility 0.4s; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Footer Component
+=================================================================== */
+.pageFooter {
+  background: var(--defaultBlue);
+  height: 5%;
+}
+
+.pageFooter ul {
+  margin: 0;
+}
+
+/* Home Component
+=================================================================== */
+.homeMain {
+  display: flex;
+  text-align: center;
+  width: auto;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-items: center; 
+  height: 100%;
+}
+
+.homeMain h1 {
+  width: 100%;
+  font-size: 4em;
+  margin-top: 5%;
+}
+
+.homeMain p {
+  width: 70%;
+  margin: 0 15%;
+  font-size: 1.5em;
+  padding: 2%;
+  margin-bottom: 3%;
+  background-color:rgba(0, 0, 0, 0.13);
+  float: inline-end;
+}
+
+.homeMain h2 {
+  text-align: center;
+  width: 100%;
+}
+
+/* ErasNavBar Component
+=================================================================== */
+.erasNavBar {
+  display: flex;
+  height: 10%;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 4% 0;
+  align-self: center;
+  flex-wrap: wrap;
+}
+
+.erasNavBar button {
+  width: 10rem;
 }
