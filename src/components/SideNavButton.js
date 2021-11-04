@@ -1,9 +1,9 @@
 import React from "react";
-
+import hamburgermenu from '../resources/hamburger-menu.svg'
 
 export const SideNavButton = props => {
     
     
 
-    return <div style={{ background: 'gold', width: '2em', height: '2em', position: 'absolute', left: '5%', top: '34%'}} onClick={props.onClick}></div>;
+    return <img src={hamburgermenu} className='sideNavButton' onClick={props.onClick} style={props.style} ></img>;
 }

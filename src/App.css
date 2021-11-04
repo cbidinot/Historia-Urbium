@@ -1,4 +1,12 @@
 
+@font-face {
+  font-family: 'Colus';
+  src: 
+    url('./resources/Colus-Regular.woff2') format('woff2'),
+    url('./resources/Colus-Regular.woff') format('woff'),
+    url('./resources/Colus-Regular.ttf') format('truetype')
+}
+
 #root {
   height: 100vh;
   width: 100vw;
@@ -7,6 +15,15 @@
 
 main {
   height: 85%;
+}
+
+.active {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
 }
 
 /* Header Component 
@@ -25,18 +42,56 @@ main {
   height: 70%;
   width: 35%;
 }
-/* SideNav Component
+.topLogo img {
+  height: 100%;
+  width: 100%;
+}
+
+/* SideNav Container
 =================================================================== */
+/* SideNavPanel Component */
 .sideNav {
-  display: inline;
+  display: inline-flexbox;
   visibility: hidden;
   position: absolute;
   left: 0vh;
   top: 10vh;
   height: 85vh;
   width: 20vw;
-  background-color: rgba(0, 0, 0, 0.253);
-  transition: left 0.5s, visibility 0.4s; 
+  background-color: rgba(240, 240, 240, 0.6);
+  transition: left 0.5s, visibility 0.5s;
+  justify-items: center;
+  flex-wrap: wrap;
+}
+
+.sideNav h3 {
+  width: 98%;
+  margin-left: 2%;
+  font-family: 'Colus', serif, cursive;
+  font-size: 1.5em;
+  letter-spacing: 0.2em;
+  color: #000;
+  overflow: visible;
+}
+
+/*SideNavButton Component */
+.sideNavButton {
+  width: 3em;
+  height: 49%; 
+  position: absolute; 
+  left: 5%;
+  transition: transform, 0.5s;
+}
+
+/*Link Buttons */
+.sideNav span {
+  display: block;
+  width: fit-content;
+  width: 20vw;
+  margin: 1em 0;
+  padding: 0.5em 0;
+  text-align: center;
+  font-size: 1.3em;
 }
 
 /* Footer Component
@@ -60,12 +115,18 @@ main {
   justify-items: center;
   align-items: center; 
   height: 100%;
+  background: url(./resources/rialto.jpg);
+  background-position: center;
 }
 
 .homeMain h1 {
-  width: 100%;
+  width: auto;
+  margin: auto;
   font-size: 4em;
   margin-top: 5%;
+  padding: 0.3%;
+  color: rgb(0, 0, 0);
+  background-color:rgba(255, 255, 255, 0.6);
 }
 
 .homeMain p {
@@ -74,13 +135,16 @@ main {
   font-size: 1.5em;
   padding: 2%;
   margin-bottom: 3%;
-  background-color:rgba(0, 0, 0, 0.13);
+  background-color:rgba(255, 255, 255, 0.6);
   float: inline-end;
 }
 
 .homeMain h2 {
   text-align: center;
-  width: 100%;
+  width: auto;
+  background-color:rgba(255, 255, 255, 0.6);
+  margin: auto;
+  padding: 0.3%;
 }
 
 /* ErasNavBar Component
@@ -95,6 +159,9 @@ main {
   flex-wrap: wrap;
 }
 
-.erasNavBar button {
+.erasNavBar span {
   width: 10rem;
+  background-color:rgba(255, 255, 255, 0.6);
+  margin: auto;
+  padding: 0.3%;
 }
