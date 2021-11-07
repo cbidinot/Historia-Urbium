@@ -1,6 +1,5 @@
-import { render } from "@testing-library/react";
 import React from "react";
-import header from '../resources/header.svg'
+import header from '../resources/vectors/header.svg'
 import { SideNav } from "../containers/SideNav";
 import { Link } from "react-router-dom";
 

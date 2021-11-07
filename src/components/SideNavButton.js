@@ -1,5 +1,5 @@
 import React from "react";
-import hamburgermenu from '../resources/hamburger-menu.svg'
+import hamburgermenu from '../resources/vectors/hamburger-menu.svg'
 
 export const SideNavButton = props => {
     

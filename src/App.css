@@ -2,9 +2,9 @@
 @font-face {
   font-family: 'Colus';
   src: 
-    url('./resources/Colus-Regular.woff2') format('woff2'),
-    url('./resources/Colus-Regular.woff') format('woff'),
-    url('./resources/Colus-Regular.ttf') format('truetype')
+    url('./resources/fonts/Colus-Regular.woff2') format('woff2'),
+    url('./resources/fonts/Colus-Regular.woff') format('woff'),
+    url('./resources/fonts/Colus-Regular.ttf') format('truetype')
 }
 
 #root {
@@ -14,7 +14,9 @@
 }
 
 main {
-  height: 85%;
+  height: auto;
+  overflow: auto;
+  padding: 0;
 }
 
 .active {
@@ -58,10 +60,11 @@ a {
   top: 10vh;
   height: 85vh;
   width: 20vw;
-  background-color: rgba(240, 240, 240, 0.6);
+  background-color: rgba(240, 240, 240, 0.9);
   transition: left 0.5s, visibility 0.5s;
   justify-items: center;
   flex-wrap: wrap;
+  overflow: auto;
 }
 
 .sideNav h3 {
@@ -99,10 +102,10 @@ a {
 .pageFooter {
   background: var(--defaultBlue);
   height: 5%;
-}
-
-.pageFooter ul {
-  margin: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
 }
 
 /* Home Component
@@ -114,9 +117,9 @@ a {
   flex-wrap: wrap;
   justify-items: center;
   align-items: center; 
-  height: 100%;
-  background: url(./resources/rialto.jpg);
-  background-position: center;
+  height: 85vh;
+  background: url(./resources/images/rialto.jpg); 
+  background-position: center
 }
 
 .homeMain h1 {
@@ -124,9 +127,10 @@ a {
   margin: auto;
   font-size: 4em;
   margin-top: 5%;
-  padding: 0.3%;
+  padding: .5% 0.2% 0 0;
   color: rgb(0, 0, 0);
   background-color:rgba(255, 255, 255, 0.6);
+  box-shadow: 0px 0px 2px 5px rgb(0 0 0 / 10%);
 }
 
 .homeMain p {
@@ -137,6 +141,7 @@ a {
   margin-bottom: 3%;
   background-color:rgba(255, 255, 255, 0.6);
   float: inline-end;
+  box-shadow: 0px 0px 2px 5px rgb(0 0 0 / 10%);
 }
 
 .homeMain h2 {
@@ -145,6 +150,8 @@ a {
   background-color:rgba(255, 255, 255, 0.6);
   margin: auto;
   padding: 0.3%;
+  font-size: 1.8em;
+  box-shadow: 0px 0px 2px 5px rgb(0 0 0 / 10%);
 }
 
 /* ErasNavBar Component
@@ -154,14 +161,120 @@ a {
   height: 10%;
   width: 100%;
   justify-content: space-evenly;
-  padding: 4% 0;
+  padding: 2% 0;
   align-self: center;
   flex-wrap: wrap;
+  background-color:rgba(255, 255, 255, 0.6);
+  box-shadow: 0px 0px 2px 5px rgb(0 0 0 / 10%);
+}
+
+.erasNavBar a {
+  background-color: var(--defaultBlue);
+  width: 10vw;
+  display: inline-flex;
+  align-items: center;
+  justify-items: center;
+  border-radius: 5%;
+  box-shadow: 0px 0px 2px 5px rgb(0 0 0 / 10%);
 }
 
 .erasNavBar span {
-  width: 10rem;
-  background-color:rgba(255, 255, 255, 0.6);
+  width: 100%;
+  color: #FFF;
+  font-family: 'Colus';
+}
+
+/* Bottom Navigation
+=================================================================== */
+
+.bottomNavigation {
+  height: 5vh;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottomNavigation div {
+  height: 100%;
+  display: inline-flex;
+  align-items: center;
+}
+
+.bottomNavigation h3 {
   margin: auto;
-  padding: 0.3%;
+  display: inline;
+  height: auto;
+  color: #FFF;
+  font-family: 'Colus';
+  font-weight: normal;
+}
+.bottomNavigation img {
+  height: 4vh;
+  margin: 0.5vh 2vw;
+}
+
+/* Content Components
+=================================================================== */
+.stageTitle {
+  text-align: center;
+  font-size: 3em;
+  margin-top: 0;
+  padding-top: 1em;
+}
+
+.stageParagraph {
+  font-size: 1.5em;
+  border: 1em solid rgba(0, 0, 0, 0.37);
+  text-align: center;
+  background: rgba(0, 0, 0, 0.096);
+  margin: 0;
+  padding: 1%;
+  overflow: auto;
+  box-shadow: 0px 0px 2px 5px rgb(0 0 0 / 10%);
+}
+
+.grid2x2 {
+  margin: 0 5vw;
+  display: grid;
+  grid-template: 35vh 35vh / 45vw 45vw;
+  box-shadow: 0px 0px 2px 5px rgb(0 0 0 / 10%);
+}
+
+.stageFigure {
+  background: rgba(0, 0, 0, 0.219);
+  margin: 0;
+  padding: 0.5em 0 1.7em 0;
+  overflow: hidden;
+}
+
+.stageFigure img {
+  margin: auto;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  box-shadow: 0px 0px 2px 5px rgb(0 0 0 / 10%);
+}
+
+.stageFigure figcaption {
+  text-align: center;
+  width: 100%;
+  padding-top: 0.4em;
+  font-size: 1.2em;
+}
+
+article {
+  height: 85vh;
+  overflow: auto;
+}
+
+/* Antigas Civ */
+.antigasCiv {
+  background: rgb(245, 241, 186);
+}
+/* Idade Média */
+.idadeMedia {
+  background: rgb(199, 201, 214);
 }
