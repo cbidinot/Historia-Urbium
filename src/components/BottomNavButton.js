@@ -31,7 +31,7 @@ export const BottomNavButton = props => {
        );
    } else if (props.previousStage) {
         return (
-            <Link to={`/estagios/${props.previousStage}/1`} >
+            <Link to={`/estagios/${props.previousStage}/2`} >
                 <img src={leftArrow} style={{float: 'left'}}/>
             </Link>
         );}

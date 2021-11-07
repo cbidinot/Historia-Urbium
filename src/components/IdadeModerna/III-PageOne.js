@@ -17,7 +17,7 @@ export const IIIPageOne = props => {
                         return (
                             <>
                                 <h3>{value}</h3>
-                                <li>{content}</li>
+                                <li key={index + 1}>{content}</li>
                             </>
                         );
                     })}

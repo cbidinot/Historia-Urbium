@@ -11,11 +11,11 @@ export const VIIPageOne = props => {
                 <div id='divList2'>
                     <ul className='stageList'>
                         <h3>Tigre Asiáticos:</h3>
-                        {atualidadeText.tigres.map(value => <li>{value}</li>)}
+                        {atualidadeText.tigres.map((value, index) => <li key={index + 1}>{value}</li>)}
                     </ul>
                     <ul className='stageList'>
                         <h3>Novos Tigres Asiáticos:</h3>
-                        {atualidadeText.novosTigres.map(value => <li>{value}</li>)}
+                        {atualidadeText.novosTigres.map((value, index) => <li key={index + 1} >{value}</li>)}
                     </ul>
                 </div>
             </section>
