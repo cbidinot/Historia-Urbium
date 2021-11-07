@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Route, useParams } from "react-router";
+import { Redirect, Route, useParams } from "react-router";
 import { IPageOne } from "../components/AntigasCiv/I-PageOne";
 import { IPageTwo } from "../components/AntigasCiv/I-PageTwo";
 import { BottomNavigation } from "./BottomNavigation";
@@ -20,6 +20,9 @@ export const AntigasCiv = props => {
     }, [page]);
     return (
         <>
+        <Route path='/estagios/antigas-civilizacoes/'>
+            <Redirect to='/estagios/antigas-civilizacoes/1' />
+        </Route>
         <article className='antigasCiv'>
 
             <Route path='/estagios/antigas-civilizacoes/1'>

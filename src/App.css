@@ -222,7 +222,8 @@ a {
   text-align: center;
   font-size: 3em;
   margin-top: 0;
-  padding-top: 1em;
+  padding-top: 0.6em;
+  margin-bottom: 0.6em;
 }
 
 .stageParagraph {
@@ -234,6 +235,10 @@ a {
   padding: 1%;
   overflow: auto;
   box-shadow: 0px 0px 2px 5px rgb(0 0 0 / 10%);
+}
+
+.stageList li {
+  font-size: 1.17em;
 }
 
 .grid2x2 {
@@ -277,4 +282,76 @@ article {
 /* Idade Média */
 .idadeMedia {
   background: rgb(199, 201, 214);
+}
+/* Idade Moderna */
+.idadeModerna {
+  background: rgb(179, 140, 223);
+}
+.groupDiv {
+  grid-area: 1 / 2 / 3 / 3;
+  border: 1em solid rgba(0, 0, 0, 0.37);
+  background: rgba(0, 0, 0, 0.096);
+  overflow: auto;
+  box-shadow: 0px 0px 2px 5px rgb(0 0 0 / 10%);
+}
+/* Revolução Industrial */
+.revIndustrial {
+  background: rgb(162, 219, 230);
+}
+/* Inicio do século XX */
+.secXX {
+  background: rgb(134, 199, 131);
+}
+/* Guerra Fria */
+.guerraFria {
+  background: rgb(202, 82, 74);
+}
+/* Atualidade */
+.atualidade {
+  background: #FFF;
+}
+#divList2 {
+  display: flex;
+  justify-content: space-evenly;
+  grid-area: 2 / 2 / 3 / 3;
+  border: 1em solid rgba(0, 0, 0, 0.37);
+  background: rgba(0, 0, 0, 0.096);
+  overflow: auto;
+  box-shadow: 0px 0px 2px 5px rgb(0 0 0 / 10%);
+  border-top: 0;
+}
+#divList2 ul {
+  margin: 1em 1em;
+  font-size: 1.3em;
+}
+
+/* Glossário
+=================================================================== */
+.glossario {
+  all: unset;
+  display: flex;
+  margin: 0 5vw;
+  flex-wrap: wrap;
+  margin-bottom: 5vh;
+  z-index: -1;
+  width: 9-vw;
+  box-sizing: border-box;
+}
+.glossario div {
+  margin: 1em;
+  width: 20%;
+  z-index: -1;
+  margin: 0 0.5em;
+}
+;.glossario ul {
+  margin: 0;
+}
+
+/* Mapa Mental
+=================================================================== */
+.mapaMental {
+  margin: 0;
+  width: 100vw;
+  height: 70vh;
+  box-sizing: border-box;
 }

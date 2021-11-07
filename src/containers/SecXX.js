@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { Redirect, Route, useParams } from "react-router";
+import { Route, useParams } from "react-router";
 import { BottomNavigation } from "./BottomNavigation";
-import { IIPageOne } from '../components/IdadeMedia/II-PageOne';
-import { IIPageTwo } from "../components/IdadeMedia/II-PageTwo";
 
+import { VPageOne } from "../components/SecXX/V-PageOne";
+import { VPageTwo } from "../components/SecXX/V-PageTwo";
 
-
-export const IdadeMedia = props => {
+export const SecXX = props => {
 
     const [ isLastPage, setIsLastPage ] = useState(false);
     const [ isFirstPage, setIsFirstPage ] = useState(true);
@@ -23,17 +22,15 @@ export const IdadeMedia = props => {
 
     return (
         <>
-            <article className='idadeMedia'>
-
-                <Route path='/estagios/idade-media/1'>
-                    <IIPageOne/>
+            <article className='secXX'>
+                <Route path='/estagios/inicio-seculo-xx/1'>
+                    <VPageOne/>
                 </Route>
-                <Route path='/estagios/idade-media/2' >
-                    <IIPageTwo/>
+                <Route path='/estagios/inicio-seculo-xx/2'>
+                    <VPageTwo/>
                 </Route>
-
             </article>
-            <BottomNavigation lastPage={isLastPage} firstPage={isFirstPage} stageOrder={1}/>
+            <BottomNavigation lastPage={isLastPage} firstPage={isFirstPage} stageOrder={4}/>
         </>
     );
 };
