@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom'
+import { HashRouter as Router, Route, Redirect } from 'react-router-dom'
 import './App.css';
 import { Header } from './components/Header';
 import { Home } from './components/Home';
@@ -18,7 +18,7 @@ function App() {
 
 
   return (
-    <Router>
+    <Router basemname={`/${process.env.PUBLIC_URL}`}>
       <Route exact path={'/'}>
         <Redirect to='/home' />
 
