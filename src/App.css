@@ -83,6 +83,8 @@ a {
   height: 49%; 
   position: absolute; 
   left: 5%;
+  -moz-transition: transform, 0.5s;
+  -webkit-transition: transform, 0.5s;
   transition: transform, 0.5s;
 }
 
@@ -354,4 +356,34 @@ article {
   width: 100vw;
   height: 70vh;
   box-sizing: border-box;
+}
+
+/* MEDIA QUERIES
+============================================================================================================================================= */
+
+@media only screen and (max-width: 1023px) and (min-width: 769px) {
+
+  /* SidePanel Nav */
+  .sideNav {
+    width: 25vw;
+  }
+
+  .sideNav span {
+    width: 25vw;
+  }
+
+  /* ErasNavBar */
+  .erasNavBar span {
+    font-size: 0.65em;
+  }
+
+  /* Content Components */
+  .stageFigure img {
+    object-position: center;
+    width: 100%;
+    height: auto;
+  }
+  .stageFigure {
+    overflow: auto;
+  }
 }
