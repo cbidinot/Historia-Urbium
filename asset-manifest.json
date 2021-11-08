@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Historia-Urbium/static/css/main.93871461.chunk.css",
+    "main.css": "/Historia-Urbium/static/css/main.078a3a79.chunk.css",
     "main.js": "/Historia-Urbium/static/js/main.03489c2e.chunk.js",
     "main.js.map": "/Historia-Urbium/static/js/main.03489c2e.chunk.js.map",
     "runtime-main.js": "/Historia-Urbium/static/js/runtime-main.fae48652.js",
@@ -10,7 +10,7 @@
     "static/js/3.53672c3e.chunk.js": "/Historia-Urbium/static/js/3.53672c3e.chunk.js",
     "static/js/3.53672c3e.chunk.js.map": "/Historia-Urbium/static/js/3.53672c3e.chunk.js.map",
     "index.html": "/Historia-Urbium/index.html",
-    "static/css/main.93871461.chunk.css.map": "/Historia-Urbium/static/css/main.93871461.chunk.css.map",
+    "static/css/main.078a3a79.chunk.css.map": "/Historia-Urbium/static/css/main.078a3a79.chunk.css.map",
     "static/js/2.c2ff7a01.chunk.js.LICENSE.txt": "/Historia-Urbium/static/js/2.c2ff7a01.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Historia-Urbium/static/media/rialto.cb5e884b.jpg",
     "static/media/agricultura.6ea9c552.jpg": "/Historia-Urbium/static/media/agricultura.6ea9c552.jpg",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.fae48652.js",
     "static/js/2.c2ff7a01.chunk.js",
-    "static/css/main.93871461.chunk.css",
+    "static/css/main.078a3a79.chunk.css",
     "static/js/main.03489c2e.chunk.js"
   ]
 }
