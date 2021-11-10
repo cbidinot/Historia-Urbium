@@ -9,15 +9,15 @@ export const IIPageOne = props => {
         <>
         <h1 className='stageTitle'>II. Idade Média</h1>
         <section className='grid2x2'>
-            <figure style={{gridArea: '1 / 1 / 2 / 2'}} className='stageFigure'>
+            <figure  className='stageFigure iTopLeft'>
                 <img src={guerra} ></img>
                 <figcaption>Guerra dos Cem Anos</figcaption>
             </figure>
-            <figure style={{gridArea: '2 / 1 / 3 / 2'}} className='stageFigure'>
+            <figure  className='stageFigure iBottomLeft'>
                 <img src={peste} ></img>
                 <figcaption>Traje médico na época da peste bubônica</figcaption>
             </figure>
-            <p className='stageParagraph' style={{gridArea: '1 / 2 / 3 / 3'}}>{idadeMediaText.pageOne}</p>
+            <p className='stageParagraph rightStack'>{idadeMediaText.pageOne}</p>
         </section>
         </>
     );

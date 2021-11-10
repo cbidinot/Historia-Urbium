@@ -7,7 +7,7 @@ export const VPageOne = props => {
         <>
             <h1 className='stageTitle'>V. Início do Século XX</h1>
             <section className='grid2x2'>
-                <p className='stageParagraph' style={{gridArea: '1 / 1 / 3 / 2'}}>{secXXText.pageOne}</p>
+                <p className='stageParagraph leftStack' >{secXXText.pageOne}</p>
             </section>
         </>
     );

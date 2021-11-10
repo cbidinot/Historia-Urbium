@@ -9,10 +9,14 @@ export const Header = props => {
 
         <header className='header'>
             <SideNav/>
-            <Link to='/home' className='topLogo'>
-                <img src={header}/>
-            </Link>
-       
+            <div className='spacer'></div>
+            <div className='headerFlex'>
+                <Link to='/home' className='topLogo'>
+                    <img src={header}/>
+                </Link>
+            </div>
+            
+            
         </header>
     );
 }

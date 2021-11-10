@@ -20,9 +20,6 @@ export const AntigasCiv = props => {
     }, [page]);
     return (
         <>
-        <Route path='/estagios/antigas-civilizacoes/'>
-            <Redirect to='/estagios/antigas-civilizacoes/1' />
-        </Route>
         <article className='antigasCiv'>
 
             <Route path='/estagios/antigas-civilizacoes/1'>

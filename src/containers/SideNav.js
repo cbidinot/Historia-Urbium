@@ -9,8 +9,8 @@ export const SideNav = props => {
         setToggleNav(!toggleNav);
     };
 
-    const displayPanel = {visibility: toggleNav ? 'visible' : 'hidden', left: toggleNav ? '0' : '-40vh' };
-    const rotateButton = {transform: toggleNav ? 'rotate(0.25turn)' : 'rotate(0)'};
+    const displayPanel = `sideNav ${toggleNav ? 'sideNavActive' : 'sideNavUnactive'}`;
+    const rotateButton = `sideNavButton ${toggleNav ? 'sideNavButtonActive' : 'sideNavButtonUnactive'}`;
 
     return (
         <>

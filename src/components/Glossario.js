@@ -6,7 +6,7 @@ export const Glossario = props => {
 
     return (
         <>
-            <h1 className='stageTitle'>Glossário</h1>
+            <h1 className='stageTitle extrasHeader'>Glossário</h1>
             <ul className='glossario'>
                 {glossario.keys.map((value, index) => {
                     const content = glossario.content[index];

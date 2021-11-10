@@ -11,15 +11,15 @@ export const IPageOne = props => {
         <>
         <h1 className='stageTitle'>I. Antigas Civilizações</h1>
         <section className='grid2x2'>
-            <figure style={{gridArea: '1 / 1 / 2 / 2'}} className='stageFigure'>
+            <figure className='stageFigure iTopLeft'>
                 <img src={map} ></img>
                 <figcaption>Berços da civilização</figcaption>
             </figure>
-            <figure style={{gridArea: '1 / 2 / 2 / 3'}} className='stageFigure'>
+            <figure className='stageFigure iTopRight'>
                 <img src={agricultura}></img>
                 <figcaption>Registros de agricultura no Antigo Egito</figcaption>
             </figure>
-            <p style={{gridArea: '2 / 1 / 3 / 3'}} className='stageParagraph'>{antigasCivText.pageOne}</p>
+            <p className='stageParagraph doubleBottom'>{antigasCivText.pageOne}</p>
         </section>
         </>
     );

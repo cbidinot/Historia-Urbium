@@ -6,7 +6,7 @@ export const MapaMental = props => {
 
     return (
         <>
-            <h1 className='stageTitle'>Mapa Mental</h1>
+            <h1 className='stageTitle extrasHeader'>Mapa Mental</h1>
             <img className='mapaMental' src={mapa_mental} alt='Mapa mental'/>
             <GoBack/>
         </>

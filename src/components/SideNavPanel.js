@@ -5,7 +5,7 @@ export const SideNavPanel = props => {
 
 
     return (
-        <nav className='sideNav' style={props.style}>
+        <nav className='sideNav' className={props.style}>
                 <LinkButton exact to='/home' content='Home' />
             <h3 id='estagiosMarker'>Estágios</h3>
                 <LinkButton to='/estagios/antigas-civilizacoes/1' content='I. Antigas Civilizações' />
