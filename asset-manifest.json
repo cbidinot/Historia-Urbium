@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Historia-Urbium/static/css/main.078a3a79.chunk.css",
-    "main.js": "/Historia-Urbium/static/js/main.03489c2e.chunk.js",
-    "main.js.map": "/Historia-Urbium/static/js/main.03489c2e.chunk.js.map",
-    "runtime-main.js": "/Historia-Urbium/static/js/runtime-main.fae48652.js",
-    "runtime-main.js.map": "/Historia-Urbium/static/js/runtime-main.fae48652.js.map",
-    "static/js/2.c2ff7a01.chunk.js": "/Historia-Urbium/static/js/2.c2ff7a01.chunk.js",
-    "static/js/2.c2ff7a01.chunk.js.map": "/Historia-Urbium/static/js/2.c2ff7a01.chunk.js.map",
-    "static/js/3.53672c3e.chunk.js": "/Historia-Urbium/static/js/3.53672c3e.chunk.js",
-    "static/js/3.53672c3e.chunk.js.map": "/Historia-Urbium/static/js/3.53672c3e.chunk.js.map",
+    "main.css": "/Historia-Urbium/static/css/main.7ac59788.chunk.css",
+    "main.js": "/Historia-Urbium/static/js/main.ea487f6b.chunk.js",
+    "main.js.map": "/Historia-Urbium/static/js/main.ea487f6b.chunk.js.map",
+    "runtime-main.js": "/Historia-Urbium/static/js/runtime-main.cd77fc29.js",
+    "runtime-main.js.map": "/Historia-Urbium/static/js/runtime-main.cd77fc29.js.map",
+    "static/js/2.3010392b.chunk.js": "/Historia-Urbium/static/js/2.3010392b.chunk.js",
+    "static/js/2.3010392b.chunk.js.map": "/Historia-Urbium/static/js/2.3010392b.chunk.js.map",
+    "static/js/3.46c593a3.chunk.js": "/Historia-Urbium/static/js/3.46c593a3.chunk.js",
+    "static/js/3.46c593a3.chunk.js.map": "/Historia-Urbium/static/js/3.46c593a3.chunk.js.map",
     "index.html": "/Historia-Urbium/index.html",
-    "static/css/main.078a3a79.chunk.css.map": "/Historia-Urbium/static/css/main.078a3a79.chunk.css.map",
-    "static/js/2.c2ff7a01.chunk.js.LICENSE.txt": "/Historia-Urbium/static/js/2.c2ff7a01.chunk.js.LICENSE.txt",
+    "static/css/main.7ac59788.chunk.css.map": "/Historia-Urbium/static/css/main.7ac59788.chunk.css.map",
+    "static/js/2.3010392b.chunk.js.LICENSE.txt": "/Historia-Urbium/static/js/2.3010392b.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Historia-Urbium/static/media/rialto.cb5e884b.jpg",
     "static/media/agricultura.6ea9c552.jpg": "/Historia-Urbium/static/media/agricultura.6ea9c552.jpg",
     "static/media/coliseu.1f246e9b.jpg": "/Historia-Urbium/static/media/coliseu.1f246e9b.jpg",
@@ -24,9 +24,9 @@
     "static/media/peste.abbf9fce.png": "/Historia-Urbium/static/media/peste.abbf9fce.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.fae48652.js",
-    "static/js/2.c2ff7a01.chunk.js",
-    "static/css/main.078a3a79.chunk.css",
-    "static/js/main.03489c2e.chunk.js"
+    "static/js/runtime-main.cd77fc29.js",
+    "static/js/2.3010392b.chunk.js",
+    "static/css/main.7ac59788.chunk.css",
+    "static/js/main.ea487f6b.chunk.js"
   ]
 }
