@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Historia-Urbium/static/css/main.942ae5de.chunk.css",
-    "main.js": "/Historia-Urbium/static/js/main.8ffaf5ad.chunk.js",
-    "main.js.map": "/Historia-Urbium/static/js/main.8ffaf5ad.chunk.js.map",
+    "main.css": "/Historia-Urbium/static/css/main.0cfb5bc0.chunk.css",
+    "main.js": "/Historia-Urbium/static/js/main.e329cb8e.chunk.js",
+    "main.js.map": "/Historia-Urbium/static/js/main.e329cb8e.chunk.js.map",
     "runtime-main.js": "/Historia-Urbium/static/js/runtime-main.cd77fc29.js",
     "runtime-main.js.map": "/Historia-Urbium/static/js/runtime-main.cd77fc29.js.map",
     "static/js/2.3010392b.chunk.js": "/Historia-Urbium/static/js/2.3010392b.chunk.js",
@@ -10,30 +10,33 @@
     "static/js/3.46c593a3.chunk.js": "/Historia-Urbium/static/js/3.46c593a3.chunk.js",
     "static/js/3.46c593a3.chunk.js.map": "/Historia-Urbium/static/js/3.46c593a3.chunk.js.map",
     "index.html": "/Historia-Urbium/index.html",
-    "static/css/main.942ae5de.chunk.css.map": "/Historia-Urbium/static/css/main.942ae5de.chunk.css.map",
+    "static/css/main.0cfb5bc0.chunk.css.map": "/Historia-Urbium/static/css/main.0cfb5bc0.chunk.css.map",
     "static/js/2.3010392b.chunk.js.LICENSE.txt": "/Historia-Urbium/static/js/2.3010392b.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Historia-Urbium/static/media/rialto.cb5e884b.jpg",
     "static/media/agricultura.6ea9c552.jpg": "/Historia-Urbium/static/media/agricultura.6ea9c552.jpg",
     "static/media/belem.4f1f5bd0.jpg": "/Historia-Urbium/static/media/belem.4f1f5bd0.jpg",
+    "static/media/bigben.b2d86339.png": "/Historia-Urbium/static/media/bigben.b2d86339.png",
     "static/media/coliseu.1f246e9b.jpg": "/Historia-Urbium/static/media/coliseu.1f246e9b.jpg",
     "static/media/colombo.92c73a6f.jpg": "/Historia-Urbium/static/media/colombo.92c73a6f.jpg",
+    "static/media/depression.cffe5da4.jpg": "/Historia-Urbium/static/media/depression.cffe5da4.jpg",
     "static/media/descobrimento.533c7f66.jpg": "/Historia-Urbium/static/media/descobrimento.533c7f66.jpg",
     "static/media/earlyciv.64e39d46.png": "/Historia-Urbium/static/media/earlyciv.64e39d46.png",
     "static/media/guerra100anos.8ee41cb7.jpg": "/Historia-Urbium/static/media/guerra100anos.8ee41cb7.jpg",
     "static/media/hamburger-menu.9fea1813.svg": "/Historia-Urbium/static/media/hamburger-menu.9fea1813.svg",
     "static/media/header.0004e4fd.svg": "/Historia-Urbium/static/media/header.0004e4fd.svg",
+    "static/media/industrias.b211f9af.jpg": "/Historia-Urbium/static/media/industrias.b211f9af.jpg",
     "static/media/johnlocke.61d73fe5.jpg": "/Historia-Urbium/static/media/johnlocke.61d73fe5.jpg",
     "static/media/leftarrow.11e4d7dc.svg": "/Historia-Urbium/static/media/leftarrow.11e4d7dc.svg",
     "static/media/locomotiva.a9885498.jpg": "/Historia-Urbium/static/media/locomotiva.a9885498.jpg",
     "static/media/mapa_mental.9f88c510.svg": "/Historia-Urbium/static/media/mapa_mental.9f88c510.svg",
     "static/media/peste.abbf9fce.png": "/Historia-Urbium/static/media/peste.abbf9fce.png",
-    "static/media/rhodescolossus.dc2d13df.jpeg": "/Historia-Urbium/static/media/rhodescolossus.dc2d13df.jpeg",
+    "static/media/primeiraguerra.62665d1a.jpg": "/Historia-Urbium/static/media/primeiraguerra.62665d1a.jpg",
     "static/media/veneza.3d8c3c4c.png": "/Historia-Urbium/static/media/veneza.3d8c3c4c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.cd77fc29.js",
     "static/js/2.3010392b.chunk.js",
-    "static/css/main.942ae5de.chunk.css",
-    "static/js/main.8ffaf5ad.chunk.js"
+    "static/css/main.0cfb5bc0.chunk.css",
+    "static/js/main.e329cb8e.chunk.js"
   ]
 }
