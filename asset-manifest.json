@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Historia-Urbium/static/css/main.0cfb5bc0.chunk.css",
-    "main.js": "/Historia-Urbium/static/js/main.e329cb8e.chunk.js",
-    "main.js.map": "/Historia-Urbium/static/js/main.e329cb8e.chunk.js.map",
+    "main.js": "/Historia-Urbium/static/js/main.33eae4e7.chunk.js",
+    "main.js.map": "/Historia-Urbium/static/js/main.33eae4e7.chunk.js.map",
     "runtime-main.js": "/Historia-Urbium/static/js/runtime-main.cd77fc29.js",
     "runtime-main.js.map": "/Historia-Urbium/static/js/runtime-main.cd77fc29.js.map",
     "static/js/2.3010392b.chunk.js": "/Historia-Urbium/static/js/2.3010392b.chunk.js",
@@ -14,6 +14,7 @@
     "static/js/2.3010392b.chunk.js.LICENSE.txt": "/Historia-Urbium/static/js/2.3010392b.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Historia-Urbium/static/media/rialto.cb5e884b.jpg",
     "static/media/agricultura.6ea9c552.jpg": "/Historia-Urbium/static/media/agricultura.6ea9c552.jpg",
+    "static/media/apartments.88646a6e.jpg": "/Historia-Urbium/static/media/apartments.88646a6e.jpg",
     "static/media/belem.4f1f5bd0.jpg": "/Historia-Urbium/static/media/belem.4f1f5bd0.jpg",
     "static/media/bigben.b2d86339.png": "/Historia-Urbium/static/media/bigben.b2d86339.png",
     "static/media/coliseu.1f246e9b.jpg": "/Historia-Urbium/static/media/coliseu.1f246e9b.jpg",
@@ -21,6 +22,8 @@
     "static/media/depression.cffe5da4.jpg": "/Historia-Urbium/static/media/depression.cffe5da4.jpg",
     "static/media/descobrimento.533c7f66.jpg": "/Historia-Urbium/static/media/descobrimento.533c7f66.jpg",
     "static/media/earlyciv.64e39d46.png": "/Historia-Urbium/static/media/earlyciv.64e39d46.png",
+    "static/media/empirestate.851739b6.jpg": "/Historia-Urbium/static/media/empirestate.851739b6.jpg",
+    "static/media/germany.43e95ee3.png": "/Historia-Urbium/static/media/germany.43e95ee3.png",
     "static/media/guerra100anos.8ee41cb7.jpg": "/Historia-Urbium/static/media/guerra100anos.8ee41cb7.jpg",
     "static/media/hamburger-menu.9fea1813.svg": "/Historia-Urbium/static/media/hamburger-menu.9fea1813.svg",
     "static/media/header.0004e4fd.svg": "/Historia-Urbium/static/media/header.0004e4fd.svg",
@@ -31,12 +34,17 @@
     "static/media/mapa_mental.9f88c510.svg": "/Historia-Urbium/static/media/mapa_mental.9f88c510.svg",
     "static/media/peste.abbf9fce.png": "/Historia-Urbium/static/media/peste.abbf9fce.png",
     "static/media/primeiraguerra.62665d1a.jpg": "/Historia-Urbium/static/media/primeiraguerra.62665d1a.jpg",
-    "static/media/veneza.3d8c3c4c.png": "/Historia-Urbium/static/media/veneza.3d8c3c4c.png"
+    "static/media/samsung.f5b78d64.jpg": "/Historia-Urbium/static/media/samsung.f5b78d64.jpg",
+    "static/media/taipe.c832fbed.png": "/Historia-Urbium/static/media/taipe.c832fbed.png",
+    "static/media/tsmc.adbe2573.jpeg": "/Historia-Urbium/static/media/tsmc.adbe2573.jpeg",
+    "static/media/veneza.3d8c3c4c.png": "/Historia-Urbium/static/media/veneza.3d8c3c4c.png",
+    "static/media/wall.81b201ac.jpg": "/Historia-Urbium/static/media/wall.81b201ac.jpg",
+    "static/media/warsaw.e64a6ba2.png": "/Historia-Urbium/static/media/warsaw.e64a6ba2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.cd77fc29.js",
     "static/js/2.3010392b.chunk.js",
     "static/css/main.0cfb5bc0.chunk.css",
-    "static/js/main.e329cb8e.chunk.js"
+    "static/js/main.33eae4e7.chunk.js"
   ]
 }
